@@ -1,0 +1,26 @@
+# Default ignored files
+# IntelliJ IDEA
+.idea/
+.idea/*.xml
+*.iml
+# Gradle
+.gradle/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Gradle wrapper files
+!gradle/wrapper/gradle-wrapper.properties
+gradle-wrapper.jar
+
+# Temporary files
+*.swp
+*~.nib
+*.bak
+*.tmp
+
