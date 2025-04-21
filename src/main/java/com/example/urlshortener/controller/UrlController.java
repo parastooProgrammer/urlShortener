@@ -1,13 +1,9 @@
 package com.example.urlshortener.controller;
 
-import com.example.urlshortener.entity.Url;
 import com.example.urlshortener.service.UrlService;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.net.URI;
-import java.util.Optional;
 
 @RestController
 public class UrlController {

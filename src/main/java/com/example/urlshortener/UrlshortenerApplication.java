@@ -9,8 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class UrlshortenerApplication {
 
 	public static void main(String[] args) {
-		System.out.println("ENCRYPTOR PASSWORD: " + System.getProperty("jasypt.encryptor.password"));
-
 		SpringApplication.run(UrlshortenerApplication.class, args);
 	}
 
